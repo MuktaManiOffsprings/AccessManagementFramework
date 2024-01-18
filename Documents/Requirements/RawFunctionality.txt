@@ -50,4 +50,25 @@ Just make note no need to explain anything at the moment.
 -------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------
+A  member is the subscriber of the system.
+It can have one or more roles.
+A role is accompaned with one or more actions.
 
+Just make note no need to explain anything at the moment.
+-------------------------------------------------------------------------------------
+A role consists of one or more actions.
+A rolegroup is created with one or more roles.
+
+Just make note no need to explain anything at the moment.
+--------------------------------------------------------------------------------------
+A workspaceType is a structural arrangement of different task in a system.
+A workspace is an acctual working area under a workspace type.
+A workspaceType can consist of one or more workspaces.
+One member can have one or more workspaceTypes.
+
+Just make note no need to explain anything at the moment.
+--------------------------------------------------------------------------------------
+The concept of "User-Workspace-Role" in this system is a logical group of modules like user, workspace, and role.
+For example, A user can work in a zonal office 1(Workspace) as an accountant (Role).
+
+Just make note no need to explain anything at the moment.
