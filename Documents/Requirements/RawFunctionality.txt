@@ -1,0 +1,53 @@
+Every software system has access management implemented to control the accessibitity of functionalities by different users. This implementation of access management is repeated for every software project or product being developed. 
+We have a concept to create a generic software framework for Access Management which can be used as a base for developing different software systems and utilized for access management.
+
+Just make a note of this and we will ask you questions and seek help to put toogether a functional specification document for the system. We will also feed you with more information for your understanding and using the same with your expertise to help us out write a professional, percise and easy to understand functional specification document. 
+
+Just make note no need to explain anything at the moment.
+
+-----------------------------------------------------------------------------
+1. Any software system can be configured either as a stand alone system or a SaaS system.
+2. A sotware system consists of different modules. Each Module in the software system encompases a certain set of functionality. In the proposed Access Manament Framework each Module will be defined as an Entity
+3. Each Functionality within the Module whose accessibility should be controlled is considered as an "Action"
+4. That is in software system there will be modules and for each module there will be actions
+5. The concept of "Application" in this systm is a logical group of Modules and there Actions. For example 
+let's say there are 3 Modules. 
+Employee Management Module which has Add, Update, View and Delete as actions
+Invoicing Module which has Add, Update, View, Print actions 
+Leave Management Module which has Create, Submit, Approve, Reject actions
+
+These Modules and actions can be bundled as two different Applications
+Application 1 is HR Application which will have 
+Employee Management Module with all actions
+Leave Management Module with all actions
+Application 2 is Accounts Application which will have 
+Employee Management Module with Only View Action 
+Invoicing Module with all actions.
+
+Just make note no need to explain anything at the moment.
+------------------------------------------------------------------------------------
+A Member is the Subscriber of the System.
+IN stand alone mode there must be only one Member 
+In SaaS mode there can be any number of Members
+A Meber will have users in it. A member can have one or many users using the system.
+
+Just make note no need to explain anything at the moment.
+-------------------------------------------------------------------------------------
+In SaaS mode a Member can subscribe to to one or more applications in the System.
+The different functionalities of an applications can be bundled into diffent "Application Packages".
+A Member can opt to subscribe to a specific Application package based on its need. 
+So "Application Package" is esentially a subset of all the Module Actions of an Application with a given Name.
+
+Just make note no need to explain anything at the moment.
+-------------------------------------------------------------------------------------
+Packages from different Applications (Only one per Application) can be bundled into "Application Package Group"
+
+"Application Package Group" will allow a Member to Subscribe to differnt applications as one package as per their need.
+
+Members always subscibe to "Application Package Groups" not individual "Application Package", so when an "Application Package" is created, the system automatically creates a corresponding "Application Package Group" containing only that "Application Package"
+
+Just make note no need to explain anything at the moment.
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
