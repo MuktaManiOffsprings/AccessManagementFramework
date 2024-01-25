@@ -57,3 +57,28 @@ The Role provides an easy and consistent way of managing access to different set
 
 Roles are defined at the Member level.
 
+An action is a task or responsibility which a role has to play.
+A role is nothing but one or more than one actions.
+--------------------------------------------------------------------------------------
+A role group is a name given to a combination of different roles.
+It is defined to manage roles in a convinient way in a system.
+---------------------------------------------------------------------------------------
+A workspaceType is structural division of working area of a system.
+A workspace is a physical environment where the actual work is conducted.
+A workspace always comes under a workspaceType.
+
+When a member is created he has to comes under a workspaceType.
+A member can have one or more workspaceTypes.
+-------------------------------------------------------------------------------------
+User refers to individuals or an organisation who will use the system.
+A member can have one or more than users.
+---------------------------------------------------------------------------------------
+There is a many to many relatioships between "User", "Role", and "Workspace".
+For example,
+Let's say:  
+User-        Workspace-          Role-
+Satya       Headoffice          Admin
+Moonmun     Branchoffice        Admin
+Satya       Branchoffice        Developer
+
+
