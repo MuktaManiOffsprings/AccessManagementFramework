@@ -1,13 +1,13 @@
 Every software system has access management implemented to control the accessibitity of functionalities by different users. This implementation of access management is repeated for every software project or product being developed. 
 We have a concept to create a generic software framework for Access Management which can be used as a base for developing different software systems and utilized for access management.
 
-Just make a note of this and we will ask you questions and seek help to put toogether a functional specification document for the system. We will also feed you with more information for your understanding and using the same with your expertise to help us out write a professional, percise and easy to understand functional specification document. 
+Just make a note of this and we will ask you questions and seek help to put together a functional specification document for the system. We will also feed you with more information for your understanding and using the same with your expertise to help us out write a professional, percise and easy to understand functional specification document. 
 
 Just make note no need to explain anything at the moment.
 
------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
 1. Any software system can be configured either as a stand alone system or a SaaS system.
-2. A sotware system consists of different modules. Each Module in the software system encompases a certain set of functionality. In the proposed Access Manament Framework each Module will be defined as an Entity
+2. A sotware system consists of different modules. Each Module in the software system encompases a certain set of functionality. In the proposed Access Management Framework each Module will be defined as an Entity
 3. Each Functionality within the Module whose accessibility should be controlled is considered as an "Action"
 4. That is in software system there will be modules and for each module there will be actions
 5. The concept of "Application" in this systm is a logical group of Modules and there Actions. For example 
@@ -39,7 +39,7 @@ A Member can opt to subscribe to a specific Application package based on its nee
 So "Application Package" is esentially a subset of all the Module Actions of an Application with a given Name.
 
 Just make note no need to explain anything at the moment.
--------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
 Packages from different Applications (Only one per Application) can be bundled into "Application Package Group"
 
 "Application Package Group" will allow a Member to Subscribe to differnt applications as one package as per their need.
@@ -47,9 +47,9 @@ Packages from different Applications (Only one per Application) can be bundled i
 Members always subscibe to "Application Package Groups" not individual "Application Package", so when an "Application Package" is created, the system automatically creates a corresponding "Application Package Group" containing only that "Application Package"
 
 Just make note no need to explain anything at the moment.
--------------------------------------------------------------------------------------
--------------------------------------------------------------------------------------
--------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
 A  member is the subscriber of the system.
 
 A Role is a group of logically related actions based on the organizational access distribution to its users.
@@ -80,5 +80,6 @@ User-        Workspace-          Role-
 Satya       Headoffice          Admin
 Moonmun     Branchoffice        Admin
 Satya       Branchoffice        Developer
+
 
 
