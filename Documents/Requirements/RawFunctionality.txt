@@ -1,4 +1,4 @@
-Every software system has access management implemented to control the accessibitity of functionalities by different users. This implementation of access management is repeated for every software project or product being developed. 
+ Every software system has access management implemented to control the accessibitity of functionalities by different users. This implementation of access management is repeated for every software project or product being developed. 
 We have a concept to create a generic software framework for Access Management which can be used as a base for developing different software systems and utilized for access management.
 
 Just make a note of this and we will ask you questions and seek help to put together a functional specification document for the system. We will also feed you with more information for your understanding and using the same with your expertise to help us out write a professional, percise and easy to understand functional specification document. 
@@ -15,11 +15,11 @@ let's say there are 3 Modules.
 Employee Management Module which has Add, Update, View and Delete as actions
 Invoicing Module which has Add, Update, View, Print actions 
 Leave Management Module which has Create, Submit, Approve, Reject actions
-
+     
 These Modules and actions can be bundled as two different Applications
 Application 1 is HR Application which will have 
 Employee Management Module with all actions
-Leave Management Module with all actions
+Leave Management Module with all action
 Application 2 is Accounts Application which will have 
 Employee Management Module with Only View Action 
 Invoicing Module with all actions.
@@ -29,10 +29,10 @@ Just make note no need to explain anything at the moment.
 A Member is the Subscriber of the System.
 IN stand alone mode there must be only one Member 
 In SaaS mode there can be any number of Members
-A Meber will have users in it. A member can have one or many users using the system.
+A Member will have users in it. A member can have one or many users using the system.
 
 Just make note no need to explain anything at the moment.
--------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
 In SaaS mode a Member can subscribe to to one or more applications in the System.
 The different functionalities of an applications can be bundled into diffent "Application Packages".
 A Member can opt to subscribe to a specific Application package based on its need. 
@@ -58,18 +58,26 @@ The Role provides an easy and consistent way of managing access to different set
 Roles are defined at the Member level.
 
 An action is a task or responsibility which a role has to play.
-A role is nothing but one or more than one actions.
+A role is nothing but one or more actions.
 --------------------------------------------------------------------------------------
 A role group is a name given to a combination of different roles.
 It is defined to manage roles in a convinient way in a system.
 ---------------------------------------------------------------------------------------
 A workspaceType is structural division of working area of a system.
+For example, 
+A banking system can be divided into head office, branch, and zonal office.
 A workspace is a physical environment where the actual work is conducted.
+WorkspaceType          Workspace 
+Head Office            Accounts desk
+Branch                 Customer Service
+Zonal office           Cash Counter
+                       Loan Section
+
 A workspace always comes under a workspaceType.
 
 When a member is created he has to comes under a workspaceType.
 A member can have one or more workspaceTypes.
--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
 User refers to individuals or an organisation who will use the system.
 A member can have one or more than users.
 ---------------------------------------------------------------------------------------
