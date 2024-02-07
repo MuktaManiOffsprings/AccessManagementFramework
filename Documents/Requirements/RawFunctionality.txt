@@ -1,4 +1,4 @@
- Every software system has access management implemented to control the accessibitity of functionalities by different users. This implementation of access management is repeated for every software project or product being developed. 
+Every software system has access management implemented to control the accessibitity of functionalities by different users. This implementation of access management is repeated for every software project or product being developed. 
 We have a concept to create a generic software framework for Access Management which can be used as a base for developing different software systems and utilized for access management.
 
 Just make a note of this and we will ask you questions and seek help to put together a functional specification document for the system. We will also feed you with more information for your understanding and using the same with your expertise to help us out write a professional, percise and easy to understand functional specification document. 
@@ -49,45 +49,33 @@ Members always subscibe to "Application Package Groups" not individual "Applicat
 Just make note no need to explain anything at the moment.
 ------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------
-A  member is the subscriber of the system.
 
+A user is the entity who accesses the system.
+A Member can have one or more users. A Member user is automatically created with the creation of a Member. 
+
+Just make note no need to explain anything at the moment.
+---------------------------------------------------------------------------------------
 A Role is a group of logically related actions based on the organizational access distribution to its users.
 The Role provides an easy and consistent way of managing access to different set of users to carry out same set of responsibilities assigned to them. 
 
 Roles are defined at the Member level.
 
-An action is a task or responsibility which a role has to play.
-A role is nothing but one or more actions.
+Just make note no need to explain anything at the moment.
 --------------------------------------------------------------------------------------
-A role group is a name given to a combination of different roles.
-It is defined to manage roles in a convinient way in a system.
----------------------------------------------------------------------------------------
-A workspaceType is structural division of working area of a system.
-For example, 
-A banking system can be divided into head office, branch, and zonal office.
-A workspace is a physical environment where the actual work is conducted.
-WorkspaceType          Workspace 
-Head Office            Accounts desk
-Branch                 Customer Service
-Zonal office           Cash Counter
-                       Loan Section
+A workspaceType is structural division of working area of an organization.
+Meber Workspace Type is the Root Workspace Type for all members. There is always one and only one RoootWorksapce for each Member. The RootWorkspace (Member Workspace) is authomatically created along with a Member.
+A Organization can be divided into head office, branch, and zonal office.
+A workspace is the actual instance of a Workspace Type 
 
-A workspace always comes under a workspaceType.
-
-When a member is created he has to comes under a workspaceType.
-A member can have one or more workspaceTypes.
+Just make note no need to explain anything at the moment.
 --------------------------------------------------------------------------------------
-User refers to individuals or an organisation who will use the system.
-A member can have one or more than users.
+An user can have access to one or more workspaces.
+In each workspace the user is assigned roles. The roles of a use can vary from workspace to workspace.
+An user's accesse in different workspaces can be different based on the roles the user has in that specific workspace.
+
+Just make note no need to explain anything at the moment.
 ---------------------------------------------------------------------------------------
-There is a many to many relatioships between "User", "Role", and "Workspace".
-For example,
-Let's say:  
-User-        Workspace-          Role-
-Satya       Headoffice          Admin
-Moonmun     Branchoffice        Admin
-Satya       Branchoffice        Developer
+A role group bundles a set of roles to enable assignment of those roles at once to a user based on his responsibilities/designation in the workspace.
+Role Group are only used for convenience of assignment of multiple roles to a user at once in a given workspace. It is not set as a reference to the user in the workspace.
 
-
-
+Just make note no need to explain anything at the moment.
