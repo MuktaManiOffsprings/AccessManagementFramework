@@ -8,3 +8,4 @@ class otp(models.Model):
     member = models.ForeignKey(member, on_delete=models.CASCADE)
     otp = models.IntegerField
     generatedOn = models.DateField
+    
